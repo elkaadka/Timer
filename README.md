@@ -14,7 +14,7 @@ A simple Timer to benchmark functions or code execution duration
     ```
    where $duration is in milliseconds
            
- - If you want the duration between this lap and the last one, send true as a parameter:
+ - If you want the duration between this lap and the last one, send this constant as a parameter:
    ```
        $duration = Timer::lap(Timer::FROM_LAST_LAP);
     ```
